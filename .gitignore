@@ -1,8 +1,6 @@
-# Ignore all text files
+
 *.txt
 
-# Ignore executable files
 *.exe
 
-# Ignore VS Code folder
 .vscode/
