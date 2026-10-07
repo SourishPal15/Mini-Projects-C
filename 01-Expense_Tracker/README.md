@@ -6,11 +6,6 @@ The project is being developed incrementally, with additional features planned f
 
 ## Current Version
 
-**Version 2 — Expense System**
-
-Version 1 introduced the account system and user authentication.
-
-Version 2 builds on that system by adding persistent expense management.
 
 ### Implemented
 
@@ -32,16 +27,6 @@ Version 2 builds on that system by adding persistent expense management.
 * Input validation
 * Persistent file-based storage
 * Login attempt limitation
-
-### Planned
-
-* Version 3 — Search and Summary
-* Version 4 — Budget Management
-* Version 5 — Polish and additional improvements
-
-> Note: The menu already contains options for Search, Summary, and Budget Management, but these features are not implemented yet.
-
----
 
 ## Project Overview
 
@@ -70,7 +55,6 @@ users.txt
 This allows the application to keep each user's expenses separate.
 
 ---
-
 ## Program Architecture
 
 The overall flow of the application is:
@@ -1745,63 +1729,8 @@ Budget management has not yet been implemented.
 
 The application performs useful validation, but it is still a console-based educational application and does not provide production-level data integrity or security.
 
----
 
-# Planned Development
 
-## Version 3 — Search and Summary
-
-Planned features include:
-
-```text
-Search Expenses
-       |
-       +-- Search by category
-       +-- Search by date
-       +-- Search by amount
-       +-- Search by description
-       +-- Search by expense ID
-```
-
-Summary functionality can later provide information such as:
-
-```text
-Total Expenses
-Number of Expenses
-Category-wise Spending
-Highest Expense
-Lowest Expense
-```
-
----
-
-## Version 4 — Budget Management
-
-The budget system is planned to introduce:
-
-```text
-Budget
-  |
-  +-- Set Budget
-  +-- View Budget
-  +-- Remaining Budget
-  +-- Spending Status
-  +-- Budget Warnings
-```
-
----
-
-## Version 5 — Polish
-
-The final stage can focus on:
-
-* Improving the console interface
-* Better error messages
-* Improved file management
-* Additional validation
-* Code organization
-* Performance improvements
-* Additional usability features
 
 ---
 
@@ -1983,29 +1912,6 @@ The most significant step beyond basic C exercises is the combination of these c
 # Future Direction
 
 The current architecture is intentionally simple enough to understand while still providing a foundation for future development.
-
-The planned progression is:
-
-```text
-Version 1
-Account System
-     |
-     v
-Version 2
-Expense Management
-     |
-     v
-Version 3
-Search + Summary
-     |
-     v
-Version 4
-Budget Management
-     |
-     v
-Version 5
-Polish + Improvements
-```
 
 The project can later be extended with more advanced C concepts such as dynamic memory allocation, improved data structures, stronger file handling, modular source files, and eventually database-backed storage.
 
