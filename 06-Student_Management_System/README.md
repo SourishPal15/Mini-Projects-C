@@ -158,9 +158,6 @@ marks=85,90,78,66,92
 
 Variables and data types, conditional statements, loops, functions, arrays, strings, structures, pointers (parameters, output values, one function pointer), file handling, input validation, linear search, Bubble Sort, modular programming with header files and include guards, and error handling with return codes.
 
-## Testing
-
-See [TEST_CHECKLIST.md](TEST_CHECKLIST.md) for the full checklist and which items were actually run. In short: the program was built with `gcc -std=c11 -Wall -Wextra -Wpedantic` with no warnings, and exercised with scripted input on Linux (GCC 13.3), including a build with AddressSanitizer and UndefinedBehaviorSanitizer that reported nothing. It was **not** tested on Windows or macOS, with Clang, or built with CMake.
 
 ## Limitations
 
