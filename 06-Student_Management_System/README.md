@@ -36,23 +36,18 @@ The project is designed to be cross-platform. It uses only standard C library fe
 ```
 Student-Management-System/
 |-- src/
-|   |-- main.c        start-up, main menu, shutdown
-|   |-- types.h       constants and the shared data structures
-|   |-- student.c/.h  add, view, search, update, delete
-|   |-- academic.c/.h subjects, marks, result calculation
-|   |-- analytics.c/.h class statistics and sorting
-|   |-- file.c/.h     load, save, backup, restore, storage status
-|   |-- reports.c/.h  individual and class reports
-|   |-- input.c/.h    safe input, validation helpers, small display helpers
-|-- data/             runtime data (index.txt, subjects.txt, students/student_<ID>.txt)
-|-- reports/          saved reports
-|-- backups/          backup copy of the data
-|-- Makefile
-|-- CMakeLists.txt
+|   |-- main.c        
+|   |-- types.h      
+|   |-- student.c/.h 
+|   |-- academic.c/.h 
+|   |-- analytics.c/.h 
+|   |-- file.c/.h     
+|   |-- reports.c/.h 
+|   |-- input.c/.h   
+|-- data/     
+|-- reports/  
+|-- backups/    
 |-- README.md
-|-- TEST_CHECKLIST.md
-|-- LICENSE
-|-- .gitignore
 ```
 
 `data/`, `data/students/`, `reports/`, `backups/` and `backups/students/` are kept in Git with empty `.gitkeep` files. The program cannot create folders using standard C alone, so these folders must exist.
