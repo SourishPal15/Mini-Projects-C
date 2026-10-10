@@ -1,6 +1,7 @@
 
 *.txt
 !03-Guess_Scrambled_Word/words.txt
+!06-Student_Management_System/*.txt
 
 *.exe
 
